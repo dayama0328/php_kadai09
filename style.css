@@ -1,0 +1,154 @@
+
+/*共通エリア*/
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #d6eeff;
+  padding: 5px 0px 0px 10px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+/*共通エリア*/
+
+
+/*ここからindex.php*/
+
+.posting {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  margin: 30px auto 50px;
+}
+
+.posting a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 20px;
+  border: #f75a53 2px solid;
+  background-color: #f75a53;
+}
+
+.posting a:hover {
+    color: #f75a53;
+    background-color: #fff;
+    border: #f75a53 2px solid;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/*ここまでindex.php*/
+
+
+/*ここからposting.php*/
+
+.table_basic {
+  margin: 30px auto;
+}
+
+
+.table_basic th {
+  border:#c0c6ca 1px solid;
+  background-color: #f0f4f8;
+  width: 190px;
+  height: 60px;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.table_basic th span {
+  float: left;
+}
+
+.table_basic th .must {
+  color: red;
+  float: right;
+  margin-right: 10px;
+}
+
+.table_basic td {
+  border:#c0c6ca 1px solid;
+  padding: 20px;
+}
+
+.box {
+  width: 300px;
+  height: 30px;
+  background-color: #ffdede;
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-align: center;
+}
+
+.link a {
+  color: blue;
+}
+
+.link a:hover {
+  color: #f3ab6f;
+  text-decoration: none;
+}
+
+.return {
+  text-align: center;
+  margin: 20px 0px 5px;
+}
+
+.return a {
+  color: blue;
+}
+
+.return a:hover {
+  color: #f3ab6f;
+  text-decoration: none;
+}
+
+.attension {
+  font-size: 12px;
+}
+
+/*ここまでposting.php*/
+
+
+/*ここからthanks.php*/
+
+#wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#wrapper .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+/*ここまでthanks.php*/
+
+
+
+
+
+
+
