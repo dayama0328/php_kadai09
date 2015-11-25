@@ -23,15 +23,6 @@ function connectDb()
     }
 }
 
-// $fileName = "sales.csv";
-// $lines= file($fileName, FILE_IGNORE_NEW_LINES);
-
-// $memberNum = count($lines) - 1;
-
-// foreach ($lines as $line) {
-//   $record = explode(" ", $line);
-//   $saleSum += $record[1];
-// }
 
 
 

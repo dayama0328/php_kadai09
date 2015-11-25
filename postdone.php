@@ -32,14 +32,13 @@ $stmt->execute();
   <h1>画像投稿掲示板</h1>
   <hr>
 <div id="wrapper">
-<p class="title">下記の内容で投稿致します</p>
+<p class="title">下記の内容で投稿しました！</p>
 
 <p>投稿者：<?php echo h($_SESSION["name"]); ?></p>
 
 <p class="imagestitle">画像タイトル：<?php echo h($_SESSION["image_name"]); ?></p>
 
 <p>画像ファイル：<br>
-  <?php echo $_SESSION["img_data"] . "<br>"; ?>
   <?php echo "<img src=\"{$_SESSION['img_data']}\"><br><br><br>"; ?>
 </p>
 
